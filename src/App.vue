@@ -47,6 +47,16 @@ module.exports = {
                     name: 'EsportsCalendar',
                     description: 'Contract work for building a new up to date EsportsCalendar and hub integrating Auth0 and Abios with a Vue and Bootstrap frontend',
                     logo: require('./assets/esportscalendar_logo.png')
+                },
+                {
+                    name: 'IdleScape',
+                    description: 'Software Engineer for Idlescape working with Node & React',
+                    logo: require('./assets/idlescape_logo.png'),
+                },
+                {
+                    name: 'CrimeBloc',
+                    description: 'Owner and developer developing a text based mafia game',
+                    logo: require('./assets/crimebloc_logo.png'),
                 }
             ]
         }
