@@ -14,7 +14,7 @@
             </div>
             <div v-for="(project, index) in projects" :key="index" class="row my-5 border bg-gray py-3">
                 <div class="col-12 col-md-3 d-flex align-items-center">
-                    <img :src="project.logo" class="project-logo"/>
+                    <img :src="project.logo" class="project-logo" :alt="project.name + ' logo'"/>
                 </div>
                 <div class="col-12 col-md-9">
                     <div class="">
